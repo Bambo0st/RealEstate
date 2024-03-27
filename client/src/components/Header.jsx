@@ -28,6 +28,11 @@ export default function Header() {
                     </Link>
                     <Link to='/profile'>
                         <li className='text-slate-700 hover:underline' >
+                            Profile
+                        </li>
+                    </Link>
+                    <Link to='/sign-in'>
+                        <li className='text-slate-700 hover:underline' >
                             Sign In
                         </li>
                     </Link>
